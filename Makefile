@@ -5,7 +5,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = InternalTest
 
-InternalTest_FILES = Tweak.x NotificationFaker.x
+InternalTest_FILES = Tweak.x
 InternalTest_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
